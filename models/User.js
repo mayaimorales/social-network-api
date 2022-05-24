@@ -14,12 +14,18 @@ const userSchema = new Schema({
         trimmed: true
 
     },
-    thoughts: {
-
-    },
-    friends: {
-
-    }
+    thoughts: [
+        {
+            type: Schema.Types.ObjectId,
+            ref: 'Thoughts',
+        },
+    ],
+    friends: [
+        {
+            type: Schema.Types.ObjectId,
+            ref: 'User',
+        }
+    ]
 })
 
 const User = model('user', userSchema);
