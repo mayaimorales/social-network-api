@@ -3,8 +3,6 @@
 ## Table of Contents 📖
 
 * [ Description ](#description-📝)
-* [ Application Preview ](#application-preview-⭐)
-* [ Installation ]
 * [ Usage ](#usage-💡)
 * [ Technologies ](#technologies-🔧)
 * [ Notable Features ](#notable-features-⚡️)
@@ -12,15 +10,23 @@
 
 ## Description 📝
 
-## Application Preview ⭐
-
-## Installation
+This project is an API for a social networking application. 
 
 ## Usage 💡
 
 ## Technologies 🔧
 
+### Backend
+
+* MongoDB
+* Mongoose
+* Express.js
+* Node
+* NPM
+
 ## Notable Features ⚡️
+
+This API project was specifically designed to practice the usage of MongoDB and Mongoose. Mongoose is required throughout the project in necessary javascript files and the appropriate syntax for Mongoose is utilized.
 
 ## Contributor 🙌
 
